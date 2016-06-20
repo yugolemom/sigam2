@@ -1,7 +1,7 @@
 package br.unitins.sigam2.controllers;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,19 +13,15 @@ import br.unitins.sigam2.interfaces.ErrorMessage;
 import br.unitins.sigam2.model.Curso;
 import br.unitins.sigam2.services.CursoServices;
 
-public class Main extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
-
-    TextView textView = null;
+public class CursoActivity extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        CursoServices services = new CursoServices(Main.this);
+        setContentView(R.layout.activity_curso);
+        CursoServices services = new CursoServices(this);
         ArrayList<Curso> list = new ArrayList<>();
 
-        textView = (TextView) findViewById(R.id.textView1);
 
 
         String json = pegaJSON("samuel.silva", "ifto258");
@@ -51,19 +47,17 @@ public class Main extends AppCompatActivity implements CursoApiResponse, ErrorMe
     @Override
     public void postSaida(ArrayList<Curso> respostaAsync) {
 
-        String curso = respostaAsync.get(0).getCurso();
-        textView.setText(curso);
-        Toast.makeText(Main.this,"The result is " + curso,Toast.LENGTH_LONG).show();
     }
-
 
     @Override
     public void postErrorMenssage(final String menssagemError) {
+
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(Main.this, menssagemError, Toast.LENGTH_SHORT).show();
+                Toast.makeText(CursoActivity.this, menssagemError, Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }
