@@ -103,6 +103,7 @@ public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
         }
 
         return cursos;
+
     }
 
     @Override
