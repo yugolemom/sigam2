@@ -16,7 +16,6 @@ import br.unitins.sigam2.services.CursoServices;
 public class Main extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
 
     TextView textView = null;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
