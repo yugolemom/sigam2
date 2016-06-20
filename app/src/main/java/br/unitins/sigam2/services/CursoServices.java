@@ -101,7 +101,6 @@ public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
             Log.e("GetDados", "A requisicao falhou!: " + ex);
             errorMessage.postErrorMenssage("A requisicao falhou!");
         }
-
         return cursos;
 
     }
