@@ -22,7 +22,7 @@ public class Main extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView1);
 
 
-        String json = pegaJSON("hugo.lima", "123");
+        String json = pegaJSON("samuel.silva", "ifto258");
         services.setJson(json);
         services.setUrl("https://sigam.ifto.edu.br/login");
 
