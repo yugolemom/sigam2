@@ -12,7 +12,6 @@ import br.unitins.sigam2.R;
 public class Main extends AppCompatActivity{
 
     private Toolbar toolbar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
