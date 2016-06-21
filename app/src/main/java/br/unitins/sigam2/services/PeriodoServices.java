@@ -4,19 +4,16 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.squareup.mimecraft.FormEncoding;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 import br.unitins.sigam2.interfaces.CursoApiResponse;
 import br.unitins.sigam2.interfaces.ErrorMessage;
-import br.unitins.sigam2.model.Curso;
+import br.unitins.sigam2.interfaces.PeriodoApiResponse;
+import br.unitins.sigam2.model.Periodo;
 import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
@@ -25,22 +22,22 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
- * Created by hugo on 15/06/16.
+ * Created by hugo on 20/06/16.
  */
-public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
+public class PeriodoServices extends AsyncTask<String,Void, ArrayList<Periodo>> {
 
     private Context mContext;
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private String url;
 
     ProgressDialog vrProgresso = null;
-    public CursoApiResponse cursoApiResponse = null;
+    public PeriodoApiResponse periodoApiResponse = null;
     public ErrorMessage errorMessage = null;
 
-    public CursoServices(Context context){
+    public PeriodoServices(Context context) {
         this.mContext = context;
-        this.cursoApiResponse = (CursoApiResponse) context;
-        this.errorMessage = (ErrorMessage) context;
+        this.periodoApiResponse = (PeriodoApiResponse) context;
+        this.errorMessage =  (ErrorMessage) context;
     }
 
     public String getUrl() {
@@ -63,11 +60,14 @@ public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
         vrProgresso.show();
     }
 
+
     @Override
-    protected ArrayList<Curso>  doInBackground(String... params) {
+    protected ArrayList<Periodo> doInBackground(String... params) {
+
+
 
         OkHttpClient client = new OkHttpClient();
-        ArrayList<Curso> cursos = new ArrayList<>();
+        ArrayList<Periodo> periodos = new ArrayList<>();
         Gson gson = new Gson();
 
         try {
@@ -86,7 +86,7 @@ public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
 
                 try{
                     String json = response.body().string();
-                    cursos = gson.fromJson(json, new TypeToken<ArrayList<Curso>>(){}.getType());
+                    periodos = gson.fromJson(json, new TypeToken<ArrayList<Periodo>>(){}.getType());
 
                 }catch (Exception ex){
                     Log.e("GetDados", "Falha ao Buscar o arquivo JSON!: " + ex);
@@ -100,23 +100,21 @@ public class CursoServices extends AsyncTask<String, Void, ArrayList<Curso>> {
             Log.e("GetDados", "A requisicao falhou!: " + ex);
             errorMessage.postErrorMenssage("A requisicao falhou!");
         }
-        return cursos;
+        return periodos;
 
     }
 
     @Override
-    protected void onPostExecute(ArrayList<Curso> cursoList) {
+    protected void onPostExecute(ArrayList<Periodo> periodos) {
         //super.onPostExecute(list);
         vrProgresso.dismiss();
 
-        if(cursoApiResponse != null){
-            cursoApiResponse.postSaida(cursoList);
+        if(periodoApiResponse != null){
+            periodoApiResponse.postSaida(periodos);
         }else{
-            Log.e("CursoApiResponse", "Problema para Gerar Array List");
+            Log.e("PeriodoApiResponse", "Problema para Gerar Array List");
         }
 
     }
-
-
 
 }

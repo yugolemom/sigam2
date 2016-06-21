@@ -1,5 +1,7 @@
 package br.unitins.sigam2.interfaces;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 
 import br.unitins.sigam2.model.Curso;

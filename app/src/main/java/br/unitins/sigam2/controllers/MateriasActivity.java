@@ -1,19 +1,15 @@
 package br.unitins.sigam2.controllers;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 import br.unitins.sigam2.R;
 
-public class ListObject extends AppCompatActivity {
-
-
+public class MateriasActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_object);
+        setContentView(R.layout.activity_materias);
     }
-
-
 }
