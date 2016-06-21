@@ -6,4 +6,7 @@
     <string name="cargahoraria">CargaHoraria</string>
     <string name="creditos">Creditos:</string>
     <string name="carga_horaria">Carga horaria:</string>
+    <string name="btn_salvar">Login</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="placeholder_login">Ex.: jose.silva</string>
 </resources>
