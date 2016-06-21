@@ -1611,7 +1611,20 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
         public static final int abc_textfield_search_material=0x7f02004a;
-        public static final int notification_template_icon_bg=0x7f02004b;
+        public static final int ic_action_menu=0x7f02004b;
+        public static final int ic_format_align_justify_black_18dp=0x7f02004c;
+        public static final int ic_format_align_justify_black_24dp=0x7f02004d;
+        public static final int ic_format_align_justify_black_36dp=0x7f02004e;
+        public static final int ic_format_align_justify_black_48dp=0x7f02004f;
+        public static final int ic_format_align_justify_grey600_18dp=0x7f020050;
+        public static final int ic_format_align_justify_grey600_24dp=0x7f020051;
+        public static final int ic_format_align_justify_grey600_36dp=0x7f020052;
+        public static final int ic_format_align_justify_grey600_48dp=0x7f020053;
+        public static final int ic_format_align_justify_white_18dp=0x7f020054;
+        public static final int ic_format_align_justify_white_24dp=0x7f020055;
+        public static final int ic_format_align_justify_white_36dp=0x7f020056;
+        public static final int ic_format_align_justify_white_48dp=0x7f020057;
+        public static final int notification_template_icon_bg=0x7f020058;
     }
     public static final class id {
         public static final int action0=0x7f0c0051;
@@ -1742,20 +1755,21 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static final int abc_search_view=0x7f040017;
         public static final int abc_select_dialog_material=0x7f040018;
-        public static final int activity_list_object=0x7f040019;
-        public static final int activity_main=0x7f04001a;
-        public static final int notification_media_action=0x7f04001b;
-        public static final int notification_media_cancel_action=0x7f04001c;
-        public static final int notification_template_big_media=0x7f04001d;
-        public static final int notification_template_big_media_narrow=0x7f04001e;
-        public static final int notification_template_lines=0x7f04001f;
-        public static final int notification_template_media=0x7f040020;
-        public static final int notification_template_part_chronometer=0x7f040021;
-        public static final int notification_template_part_time=0x7f040022;
-        public static final int select_dialog_item_material=0x7f040023;
-        public static final int select_dialog_multichoice_material=0x7f040024;
-        public static final int select_dialog_singlechoice_material=0x7f040025;
-        public static final int support_simple_spinner_dropdown_item=0x7f040026;
+        public static final int activity_curso=0x7f040019;
+        public static final int activity_list_object=0x7f04001a;
+        public static final int activity_main=0x7f04001b;
+        public static final int notification_media_action=0x7f04001c;
+        public static final int notification_media_cancel_action=0x7f04001d;
+        public static final int notification_template_big_media=0x7f04001e;
+        public static final int notification_template_big_media_narrow=0x7f04001f;
+        public static final int notification_template_lines=0x7f040020;
+        public static final int notification_template_media=0x7f040021;
+        public static final int notification_template_part_chronometer=0x7f040022;
+        public static final int notification_template_part_time=0x7f040023;
+        public static final int select_dialog_item_material=0x7f040024;
+        public static final int select_dialog_multichoice_material=0x7f040025;
+        public static final int select_dialog_singlechoice_material=0x7f040026;
+        public static final int support_simple_spinner_dropdown_item=0x7f040027;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
