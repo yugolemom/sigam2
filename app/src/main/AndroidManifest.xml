@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".controllers.CursoActivity" />
         <activity android:name=".controllers.MateriasActivity" />
-        <activity android:name=".controllers.PeriodoActivity"></activity>
+        <activity android:name=".controllers.PeriodoActivity" />
+        <activity android:name=".controllers.AvaliacaoActivity"></activity>
     </application>
 
 </manifest>

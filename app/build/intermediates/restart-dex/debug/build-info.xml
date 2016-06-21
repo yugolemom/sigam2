@@ -4,22 +4,30 @@
     api-level="19"
     density="560dpi"
     format="7"
-    timestamp="5004751165940"
-    token="4258353599041217123" >
+    timestamp="440800878342937"
+    token="-8025868663122354958" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="79" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="3" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
-    <build timestamp="5004751165940" />
+    <artifact
+        location="/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="440800878342937" >
+        <artifact
+            location="/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
 
 </instant-run>

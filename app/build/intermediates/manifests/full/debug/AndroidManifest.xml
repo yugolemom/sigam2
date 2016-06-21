@@ -23,8 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.unitins.sigam2.controllers.ListObject" />
         <activity android:name="br.unitins.sigam2.controllers.CursoActivity" />
+        <activity android:name="br.unitins.sigam2.controllers.MateriasActivity" />
+        <activity android:name="br.unitins.sigam2.controllers.PeriodoActivity" />
+        <activity android:name="br.unitins.sigam2.controllers.AvaliacaoActivity" />
     </application>
 
 </manifest>

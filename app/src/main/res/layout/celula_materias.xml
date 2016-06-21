@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textMateriaDisciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/nomedisciplina"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaNomeProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMateriaDisciplina"
+        android:text="@string/nomeprofessor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMateriaNomeProfessor"
+        android:layout_toEndOf="@+id/textMateriaLabelC"
+        android:text="@string/status"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaCargaHoraria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textMateriaLabelCH"
+        android:text="@string/cargahoraria"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMateriaStatus"
+        android:layout_toEndOf="@+id/textMateriaLabelC"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaLabelC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textMateriaLabelCH"
+        android:text="@string/creditos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_secondary_text_material_light" />
+
+    <TextView
+        android:id="@+id/textMateriaLabelCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMateriaStatus"
+        android:layout_marginEnd="22dp"
+        android:layout_toStartOf="@+id/textMateriaCargaHoraria"
+        android:text="@string/carga_horaria"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_secondary_text_material_light" />
+
+    <TextView
+        android:id="@+id/textLabelS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textMateriaStatus"
+        android:layout_alignBottom="@+id/textMateriaStatus"
+        android:layout_alignParentStart="true"
+        android:text="Status:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

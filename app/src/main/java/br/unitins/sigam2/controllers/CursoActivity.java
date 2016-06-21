@@ -1,14 +1,13 @@
 package br.unitins.sigam2.controllers;
 
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -22,12 +21,32 @@ import br.unitins.sigam2.services.CursoServices;
 
 public class CursoActivity extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
 
-
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curso);
+
+        /*Toolbar*/
+
+        toolbar = (Toolbar) findViewById(R.id.tool_bar);
+
+        toolbar.setTitle("Cursos");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Log.i("info!", "Button Clicado!");
+                //onBackPressed();
+                Voltar();
+
+            }
+        });
 
         CursoServices services = new CursoServices(this);
 
@@ -74,7 +93,8 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
                     }
                 });
 
-                Toast.makeText(CursoActivity.this, "Informações Carregadas!", Toast.LENGTH_SHORT).show();
+                if (respostaAsync.size() > 0)
+                    Toast.makeText(CursoActivity.this, "Informações Carregadas!", Toast.LENGTH_SHORT).show();
 
 
 
@@ -102,6 +122,14 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
         startActivity(intent);
 
        this.finish();
+    }
+
+    public void Voltar() {
+        Intent intent = new Intent(CursoActivity.this, Main.class);
+
+        startActivity(intent);
+
+        this.finish();
     }
 
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/avaliacaoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="31dp"
+        android:text="Nome Avaliacao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/primary_text_light" />
+
+    <TextView
+        android:id="@+id/avaliacaoNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/avaliacaoNome"
+        android:layout_marginEnd="55dp"
+        android:text="nota"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/abc_primary_text_disable_only_material_light" />
+
+
+</RelativeLayout>

@@ -1,8 +1,9 @@
 package br.unitins.sigam2.controllers;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -20,19 +21,49 @@ import br.unitins.sigam2.services.PeriodoServices;
 
 public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResponse, ErrorMessage {
 
+    static final String STATE_SCORE = "playerScore";
+    static final String STATE_LEVEL = "playerLevel";
+    static final String STATE_MATRICULA = "idMatricula";
     Integer idMatricula = 0;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_periodo);
 
-        Intent intent = getIntent();
+        if (savedInstanceState != null) {
+            // Restore value of members from saved state
+            //mCurrentScore = savedInstanceState.getInt(STATE_SCORE);
+            //mCurrentLevel = savedInstanceState.getInt(STATE_LEVEL);
+            idMatricula = savedInstanceState.getInt(STATE_MATRICULA);
+        } else {
+            Intent intent = getIntent();
+            idMatricula = intent.getIntExtra("idMatricula", 0);
+        }
+
+         /*Toolbar*/
+
+        toolbar = (Toolbar) findViewById(R.id.tool_bar);
+
+        toolbar.setTitle("Periodos");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Log.i("info!", "Button Clicado!");
+                //onBackPressed();
+                Voltar();
+
+            }
+        });
+
 
         PeriodoServices services = new PeriodoServices(this);
-
-
-        idMatricula = intent.getIntExtra("idMatricula", 0);
 
 
         String[] params = {"id",idMatricula.toString()};
@@ -75,7 +106,8 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
                     }
                 });
 
-                Toast.makeText(PeriodoActivity.this, "Informações Carregadas!", Toast.LENGTH_SHORT).show();
+                if (respostaAsync.size() > 0)
+                    Toast.makeText(PeriodoActivity.this, "Informações Carregadas!", Toast.LENGTH_SHORT).show();
 
 
 
@@ -87,12 +119,44 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
         Intent intent = new Intent(PeriodoActivity.this,MateriasActivity.class);
 
         intent.putExtra("idPeriodo", idPeriodo);
-        intent.putExtra("idMateria", this.idMatricula);
+        intent.putExtra("idMatricula", idMatricula);
 
 
         startActivity(intent);
 
         this.finish();
+
+    }
+
+    public void Voltar() {
+        Intent intent = new Intent(PeriodoActivity.this, CursoActivity.class);
+
+        startActivity(intent);
+
+        this.finish();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        // Save the user's current game state
+        savedInstanceState.putInt(STATE_SCORE, 1);
+        savedInstanceState.putInt(STATE_LEVEL, 2);
+        savedInstanceState.putInt(STATE_MATRICULA, idMatricula);
+
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        // Always call the superclass so it can restore the view hierarchy
+        super.onRestoreInstanceState(savedInstanceState);
+
+        // Restore state members from saved instance
+        //mCurrentScore = savedInstanceState.getInt(STATE_SCORE);
+        //mCurrentLevel = savedInstanceState.getInt(STATE_LEVEL);
+
+        this.idMatricula = savedInstanceState.getInt(STATE_MATRICULA);
 
     }
 }

@@ -1,3 +1,2 @@
-CHANGED,/home/hugo/android-samples/Sigam2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/br/unitins/sigam2/services/GsonServices$override.class
-CHANGED,/home/hugo/android-samples/Sigam2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/br/unitins/sigam2/controllers/Main$override.class
-CHANGED,/home/hugo/android-samples/Sigam2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/br/unitins/sigam2/controllers/MateriasActivity$3$1$override.class
+CHANGED,/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

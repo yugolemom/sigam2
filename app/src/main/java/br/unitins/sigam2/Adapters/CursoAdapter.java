@@ -39,9 +39,9 @@ public class CursoAdapter extends ArrayAdapter<Curso> {
             Log.i("info", "Celula Reciclada!");
         }
 
-        TextView matriculaText = (TextView)celulaReciclada.findViewById(R.id.nomePeriodo);
+        TextView matriculaText = (TextView) celulaReciclada.findViewById(R.id.avaliacaoNome);
         TextView cursoText = (TextView)celulaReciclada.findViewById(R.id.nomeCurso);
-        TextView ingressoText = (TextView)celulaReciclada.findViewById(R.id.ingressoCurso);
+        TextView ingressoText = (TextView) celulaReciclada.findViewById(R.id.avaliacaoNota);
 
 
         matriculaText.setText(curso.getMatricula());

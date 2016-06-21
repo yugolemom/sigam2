@@ -41,7 +41,7 @@ public class PeriodoAdapter extends ArrayAdapter<Periodo>{
 
         TextView idPeriodoText = (TextView)celulaReciclada.findViewById(R.id.idPeriodo);
 
-        TextView periodoText = (TextView)celulaReciclada.findViewById(R.id.nomePeriodo);
+        TextView periodoText = (TextView) celulaReciclada.findViewById(R.id.avaliacaoNome);
 
         periodoText.setText(periodo.getPeriodo());
         idPeriodoText.setText(periodo.getId().toString());

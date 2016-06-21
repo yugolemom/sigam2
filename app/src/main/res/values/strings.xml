@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sigam2</string>
+    <string name="nomedisciplina">NomeDisciplina</string>
+    <string name="nomeprofessor">NomeProfessor</string>
+    <string name="status">Status</string>
+    <string name="cargahoraria">CargaHoraria</string>
+    <string name="creditos">Creditos:</string>
+    <string name="carga_horaria">Carga horaria:</string>
 </resources>
