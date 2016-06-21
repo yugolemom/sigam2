@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nomePeriodo"
+        android:textColor="@android:color/primary_text_light"
+        android:text="Matricula Curso"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/nomeCurso"
+        android:textColor="@color/bright_foreground_inverse_material_dark"
+        android:text="Nome Curso"
+        android:layout_below="@+id/ingressoCurso"
+        android:layout_alignStart="@+id/nomePeriodo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/ingressoCurso"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:text="ingresso"
+        android:layout_alignBottom="@+id/nomePeriodo"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

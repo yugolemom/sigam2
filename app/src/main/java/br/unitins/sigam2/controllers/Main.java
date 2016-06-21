@@ -1,68 +1,42 @@
 package br.unitins.sigam2.controllers;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import br.unitins.sigam2.R;
-import br.unitins.sigam2.interfaces.CursoApiResponse;
-import br.unitins.sigam2.interfaces.ErrorMessage;
-import br.unitins.sigam2.model.Curso;
-import br.unitins.sigam2.services.CursoServices;
 
-public class Main extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
 
-    TextView textView = null;
+public class Main extends AppCompatActivity{
+
+    private Toolbar toolbar;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CursoServices services = new CursoServices(Main.this);
-        ArrayList<Curso> list = new ArrayList<>();
+        /*Toolbar*/
 
-        textView = (TextView) findViewById(R.id.textView1);
+        toolbar = (Toolbar) findViewById(R.id.tool_bar);
 
-
-        String json = pegaJSON("samuel.silva", "ifto258");
-        String json2 = pegaJSON2("1196933138");
-
-        String[] params = {"number","1196933138"};
-        services.setUrl("https://sigam.ifto.edu.br/cursos");
-
-        services.execute(params);
+        //toolbar.setTitle("Home");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
 
 
 
     }
 
-    public String pegaJSON(String username, String password) {
-        return "{'name':'" + username + "'pass:'" + password + "}";
-    }
-
-    public String pegaJSON2(String number) {
-        return "{'number':'" + number +"}";
-    }
-
-    @Override
-    public void postSaida(ArrayList<Curso> respostaAsync) {
-
-        String curso = respostaAsync.get(0).getCurso();
-        textView.setText(curso);
-        Toast.makeText(Main.this,"The result is " + curso,Toast.LENGTH_LONG).show();
+    public void ProximaPage(View view){
+        Intent intent = new Intent(Main.this,CursoActivity.class);
+        startActivity(intent);
     }
 
 
-    @Override
-    public void postErrorMenssage(final String menssagemError) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                Toast.makeText(Main.this, menssagemError, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 }
