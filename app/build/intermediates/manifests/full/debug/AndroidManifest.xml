@@ -27,6 +27,7 @@
         <activity android:name="br.unitins.sigam2.controllers.MateriasActivity" />
         <activity android:name="br.unitins.sigam2.controllers.PeriodoActivity" />
         <activity android:name="br.unitins.sigam2.controllers.AvaliacaoActivity" />
+        <activity android:name="br.unitins.sigam2.controllers.FormActivity" />
     </application>
 
 </manifest>

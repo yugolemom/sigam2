@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:2:1-27:12
 	xmlns:android
 		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -18,13 +18,23 @@ ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidM
 	android:name
 		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:7:5-24:19
+ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:11:9-35
@@ -63,9 +73,13 @@ ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidM
 	android:name
 		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:22:19-62
 activity#br.unitins.sigam2.controllers.AvaliacaoActivity
-ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:23:9-76
+ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:23:9-67
 	android:name
 		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:23:19-64
+activity#br.unitins.sigam2.controllers.FormActivity
+ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:24:9-71
+	android:name
+		ADDED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml:24:19-59
 uses-sdk
 INJECTED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
@@ -74,6 +88,17 @@ MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.loca
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.4.0] /home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/AndroidManifest.xml
