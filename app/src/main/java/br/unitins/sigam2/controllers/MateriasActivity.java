@@ -23,12 +23,15 @@ public class MateriasActivity extends AppCompatActivity implements MateriaApiRes
 
     Integer idPeriodo = 0;
     Integer idMatricula = 0;
+    SessionManager manager;
     private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materias);
+
+        manager = new SessionManager();
 
          /*Toolbar*/
 
@@ -53,10 +56,19 @@ public class MateriasActivity extends AppCompatActivity implements MateriaApiRes
 
         Intent intent = getIntent();
 
+
+        if (intent.getIntExtra("idMatricula", 0) == 0) {
+
+            idMatricula = manager.getIntegerPreferences(MateriasActivity.this, "idMatricula");
+            idPeriodo = manager.getIntegerPreferences(MateriasActivity.this, "idPeriodo");
+        } else {
+            idPeriodo = intent.getIntExtra("idPeriodo", 0);
+            idMatricula = intent.getIntExtra("idMatricula", 0);
+        }
+
         MateriaServices services = new MateriaServices(this);
 
-        idPeriodo = intent.getIntExtra("idPeriodo", 0);
-        idMatricula = intent.getIntExtra("idMatricula", 0);
+
 
 
         String[] params = {"id", idPeriodo.toString(),
@@ -110,6 +122,9 @@ public class MateriasActivity extends AppCompatActivity implements MateriaApiRes
     }
 
     public void ProximaPage(Integer idMateria) {
+
+        manager.setIntegerPreferences(MateriasActivity.this, "idMateria", idMateria);
+
         Intent intent = new Intent(MateriasActivity.this, AvaliacaoActivity.class);
 
         intent.putExtra("idMateria", idMateria);

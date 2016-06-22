@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="19"
-    density="560dpi"
+    api-level="23"
+    density="420dpi"
     format="7"
-    timestamp="440800878342937"
-    token="-8025868663122354958" >
+    timestamp="14971220553693"
+    token="-8036917777350002914" >
 
     <task
         name="javac"
-        duration="79" />
+        duration="3595" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="751" />
     <task
         name="verifier"
-        duration="1" />
+        duration="488" />
 
     <artifact
-        location="/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
 
-    <build timestamp="440800878342937" >
+    <build timestamp="5917206067903" >
         <artifact
-            location="/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/outputs/apk/app-debug.apk"
+            location="/home/hugo/AndroidStudioProjects/sigam2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="6553919368242" >
+        <artifact
+            location="/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="14971220553693" >
+        <artifact
+            location="/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

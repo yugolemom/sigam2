@@ -21,12 +21,16 @@ import br.unitins.sigam2.services.CursoServices;
 
 public class CursoActivity extends AppCompatActivity implements CursoApiResponse, ErrorMessage {
 
+    SessionManager manager;
     private Toolbar toolbar;
+    private String number = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curso);
+
+        manager = new SessionManager();
 
         /*Toolbar*/
 
@@ -34,7 +38,7 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
 
         toolbar.setTitle("Cursos");
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setHomeButtonEnabled(true);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -48,12 +52,24 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
             }
         });
 
+        Intent intent = getIntent();
+
+        if (intent.getStringExtra("number") == null) {
+            manager = new SessionManager();
+
+            number = manager.getPreferences(CursoActivity.this, "number");
+        } else {
+            number = intent.getStringExtra("number");
+        }
+
         CursoServices services = new CursoServices(this);
 
-        String json = pegaJSON("samuel.silva", "ifto258");
-        String json2 = pegaJSON2("1196933138");
+        //String json = pegaJSON("samuel.silva", "ifto258");
+        //String json2 = pegaJSON2("1196933138");
 
-        String[] params = {"number","1196933138"};
+        String[] params = {"number", number};
+
+        Log.i("info", number + " clicado");
         services.setUrl("https://sigam.ifto.edu.br/cursos");
 
         services.execute(params);
@@ -65,19 +81,19 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
     }
 
     public String pegaJSON2(String number) {
-        return "{'number':'" + number +"}";
+        return "{'number':'" + number + "}";
     }
 
     @Override
     public void postSaida(final ArrayList<Curso> respostaAsync) {
 
-        runOnUiThread(new Runnable()  {
+        runOnUiThread(new Runnable() {
             @Override
             public void run() {
 
 
-                ListView meuListView = (ListView)findViewById(R.id.listCurso);
-
+                ListView meuListView = (ListView) findViewById(R.id.listCurso);
+                Curso c = new Curso();
 
                 CursoAdapter adptador = new CursoAdapter(getApplicationContext(), respostaAsync);
 
@@ -89,13 +105,14 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
                         Curso c = respostaAsync.get(position);
 
                         Log.i("info", c.getId() + " clicado");
+
+
                         ProximaPage(c.getId());
                     }
                 });
 
                 if (respostaAsync.size() > 0)
                     Toast.makeText(CursoActivity.this, "Informações Carregadas!", Toast.LENGTH_SHORT).show();
-
 
 
             }
@@ -115,17 +132,23 @@ public class CursoActivity extends AppCompatActivity implements CursoApiResponse
 
     }
 
-    public void ProximaPage(Integer idMatricula){
-        Intent intent = new Intent(CursoActivity.this,PeriodoActivity.class);
+    public void ProximaPage(Integer idMatricula) {
+
+
+        manager.setIntegerPreferences(CursoActivity.this, "idMatricula", idMatricula);
+
+        Intent intent = new Intent(CursoActivity.this, PeriodoActivity.class);
+
 
         intent.putExtra("idMatricula", idMatricula);
+
         startActivity(intent);
 
-       this.finish();
+        this.finish();
     }
 
     public void Voltar() {
-        Intent intent = new Intent(CursoActivity.this, Main.class);
+        Intent intent = new Intent(CursoActivity.this, FormActivity.class);
 
         startActivity(intent);
 

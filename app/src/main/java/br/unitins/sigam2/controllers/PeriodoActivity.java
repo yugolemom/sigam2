@@ -19,12 +19,11 @@ import br.unitins.sigam2.interfaces.PeriodoApiResponse;
 import br.unitins.sigam2.model.Periodo;
 import br.unitins.sigam2.services.PeriodoServices;
 
+
 public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResponse, ErrorMessage {
 
-    static final String STATE_SCORE = "playerScore";
-    static final String STATE_LEVEL = "playerLevel";
-    static final String STATE_MATRICULA = "idMatricula";
     Integer idMatricula = 0;
+    SessionManager manager;
     private Toolbar toolbar;
 
     @Override
@@ -32,15 +31,7 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_periodo);
 
-        if (savedInstanceState != null) {
-            // Restore value of members from saved state
-            //mCurrentScore = savedInstanceState.getInt(STATE_SCORE);
-            //mCurrentLevel = savedInstanceState.getInt(STATE_LEVEL);
-            idMatricula = savedInstanceState.getInt(STATE_MATRICULA);
-        } else {
-            Intent intent = getIntent();
-            idMatricula = intent.getIntExtra("idMatricula", 0);
-        }
+        manager = new SessionManager();
 
          /*Toolbar*/
 
@@ -61,6 +52,15 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
 
             }
         });
+
+        Intent intent = getIntent();
+
+        if (intent.getIntExtra("idMatricula", 0) == 0) {
+
+            idMatricula = manager.getIntegerPreferences(PeriodoActivity.this, "idMatricula");
+        } else {
+            idMatricula = intent.getIntExtra("idMatricula", 0);
+        }
 
 
         PeriodoServices services = new PeriodoServices(this);
@@ -116,11 +116,13 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
     }
 
     public void ProximaPage(Integer idPeriodo){
+
+        manager.setIntegerPreferences(PeriodoActivity.this, "idPeriodo", idPeriodo);
+
         Intent intent = new Intent(PeriodoActivity.this,MateriasActivity.class);
 
         intent.putExtra("idPeriodo", idPeriodo);
         intent.putExtra("idMatricula", idMatricula);
-
 
         startActivity(intent);
 
@@ -136,27 +138,5 @@ public class PeriodoActivity extends AppCompatActivity implements PeriodoApiResp
         this.finish();
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
-        // Save the user's current game state
-        savedInstanceState.putInt(STATE_SCORE, 1);
-        savedInstanceState.putInt(STATE_LEVEL, 2);
-        savedInstanceState.putInt(STATE_MATRICULA, idMatricula);
 
-        // Always call the superclass so it can save the view hierarchy state
-        super.onSaveInstanceState(savedInstanceState);
-    }
-
-    @Override
-    public void onRestoreInstanceState(Bundle savedInstanceState) {
-        // Always call the superclass so it can restore the view hierarchy
-        super.onRestoreInstanceState(savedInstanceState);
-
-        // Restore state members from saved instance
-        //mCurrentScore = savedInstanceState.getInt(STATE_SCORE);
-        //mCurrentLevel = savedInstanceState.getInt(STATE_LEVEL);
-
-        this.idMatricula = savedInstanceState.getInt(STATE_MATRICULA);
-
-    }
 }

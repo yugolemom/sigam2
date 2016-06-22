@@ -1,5 +1,6 @@
 package br.unitins.sigam2.controllers;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -15,26 +16,33 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import br.unitins.sigam2.R;
+import br.unitins.sigam2.interfaces.ErrorMessage;
+import br.unitins.sigam2.interfaces.LoginApiResponse;
+import br.unitins.sigam2.model.Login;
+import br.unitins.sigam2.services.LoginServices;
 
-public class FormActivity extends AppCompatActivity {
+public class FormActivity extends AppCompatActivity implements LoginApiResponse, ErrorMessage {
 
+    SessionManager manager;
     private Toolbar toolbar;
     private EditText inputLogin, inputPass;
     private TextInputLayout inputLayoutLogin, inputLayoutPassword;
     private Button btnSalvar;
+    private String number;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
 
+        manager = new SessionManager();
 
-        toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        /*toolbar = (Toolbar) findViewById(R.id.tool_bar);
         toolbar.setTitle("Form");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setHomeButtonEnabled(true);
-
+        */
 
         inputLayoutLogin = (TextInputLayout) findViewById(R.id.input_layout_login);
         inputLayoutPassword = (TextInputLayout) findViewById(R.id.input_layout_password);
@@ -70,9 +78,15 @@ public class FormActivity extends AppCompatActivity {
         String password = inputPass.getText().toString();
 
         //String md5Password = md5(password);
+        LoginServices services = new LoginServices(FormActivity.this);
 
+        String[] params = {"user", login,
+                "pass", password};
 
-        Toast.makeText(getApplicationContext(), "Bem-Vindo ao Sistema!", Toast.LENGTH_LONG).show();
+        services.setUrl("https://sigam.ifto.edu.br/login");
+
+        services.execute(params);
+
 
 
     }
@@ -108,6 +122,41 @@ public class FormActivity extends AppCompatActivity {
         return null;
     }
 
+    public void ProximaPage(String numero) {
+        Intent intent = new Intent(FormActivity.this, CursoActivity.class);
+
+        intent.putExtra("number", numero);
+        startActivity(intent);
+
+        this.finish();
+    }
+
+    @Override
+    public void postErrorMenssage(final String menssagemError) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(FormActivity.this, menssagemError, Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    @Override
+    public void postSaida(Login respostaAsync) {
+
+        if (respostaAsync.getCodigo() != null) {
+
+            Toast.makeText(getApplicationContext(), "Bem-Vindo ao Sistema!", Toast.LENGTH_LONG).show();
+            number = respostaAsync.getNumber();
+
+            manager.setPreferences(FormActivity.this, "number", number);
+
+            ProximaPage(number);
+
+        }
+
+    }
+
     private class escutaTexto implements TextWatcher {
 
         private View view;
@@ -140,4 +189,6 @@ public class FormActivity extends AppCompatActivity {
         }
 
     }
+
+
 }

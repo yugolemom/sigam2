@@ -24,12 +24,16 @@ public class AvaliacaoActivity extends AppCompatActivity implements AvaliacaoApi
     Integer idPeriodo = 0;
     Integer idMatricula = 0;
     Integer idDisciplina = 0;
+    SessionManager manager;
     private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_avaliacao);
+
+        manager = new SessionManager();
+
 
          /*Toolbar*/
 
@@ -53,9 +57,22 @@ public class AvaliacaoActivity extends AppCompatActivity implements AvaliacaoApi
 
         Intent intent = getIntent();
 
-        idPeriodo = intent.getIntExtra("idPeriodo", 0);
-        idMatricula = intent.getIntExtra("idMatricula", 0);
-        idDisciplina = intent.getIntExtra("idMateria", 0);
+        if (intent.getIntExtra("idMatricula", 0) == 0) {
+
+            idPeriodo = manager.getIntegerPreferences(AvaliacaoActivity.this, "idPeriodo");
+            idMatricula = manager.getIntegerPreferences(AvaliacaoActivity.this, "idMatricula");
+            idDisciplina = manager.getIntegerPreferences(AvaliacaoActivity.this, "idMateria");
+
+
+        } else {
+
+            idPeriodo = intent.getIntExtra("idPeriodo", 0);
+            idMatricula = intent.getIntExtra("idMatricula", 0);
+            idDisciplina = intent.getIntExtra("idMateria", 0);
+
+        }
+
+
 
         AvaliacaoServices services = new AvaliacaoServices(this);
 

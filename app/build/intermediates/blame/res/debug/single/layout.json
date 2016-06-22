@@ -1,242 +1,242 @@
 [
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_periodo.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_periodo.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_materias.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_materias.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_header.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_curso.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_curso.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/celula_materias.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/celula_materias.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/celula_curso.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/celula_curso.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/celula_avaliacao.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/celula_avaliacao.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_main.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_form.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_form.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/activity_avaliacao.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/activity_avaliacao.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_snackbar.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/celula_periodo.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/celula_periodo.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/layout_toolbar.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/layout_toolbar.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/celula_curso.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/celula_curso.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_menu_item_action_area.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_menu.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/celula_periodo.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/celula_periodo.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/layout_toolbar.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/layout_toolbar.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/celula_materias.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/src/main/res/layout/celula_materias.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_bottom_sheet_dialog.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_form.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_form.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_avaliacao.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_avaliacao.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_materias.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_materias.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_tab_icon.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_layout_tab_text.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_periodo.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_periodo.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/activity_curso.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/activity_curso.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/celula_avaliacao.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/src/main/res/layout/celula_avaliacao.xml"
     },
     {
-        "merged": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/home/ifto.local/1553910/Desenvolvimento/sigam2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_menu_item.xml"
+        "merged": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/hugo/AndroidStudioProjects/sigam2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
     }
 ]
